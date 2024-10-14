@@ -1,0 +1,291 @@
+body {
+    color: #121212;
+    background-color: whitesmoke; 
+    margin: auto;
+    text-align: center;
+    font-weight: 100;
+    font-family: Tahoma;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #121212;
+    color: white;
+    font-family: Tahoma;
+    transition: top 0.5s;
+}
+
+.header .box-width {
+    width: 90px;
+}
+
+.name a {
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: white;
+    padding: 8px;
+    font-weight: 100;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(50, 50, 50);
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+/* Home */
+.profile-container {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+}
+
+.profile-container .box {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 400px;
+}
+
+.greeting-message {
+    font-size: 25px;
+}
+
+#kevin {
+    border-radius: 200px;
+    border: 3px solid #121212;
+    box-shadow: 0px 0px 30px;
+}
+
+/* About */
+.aboutme {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.aboutme .box {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 400px;
+}
+
+#kevin2 {
+    border-radius: 200px;
+}
+
+.about {
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.skills-section .box {
+    display: flex;
+    padding: 10px;
+    width: 1050px;
+}
+
+.skill {
+    font-size: 23px;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 15px; 
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#languagesBtn {
+    background-color: #100C08;
+    color: white;
+}
+
+.skills-list{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 38px;
+}
+
+.skills-list img{
+    padding-right: 20px;
+}
+
+.skills-list span {
+    font-size: 18px;
+    padding: 15px;
+    border: 2px solid #121212;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.pro{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1300px;
+    margin: auto; 
+    padding-bottom: 100px;
+}
+
+.pro img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.pro span {
+    font-size: 18px;
+    padding: 20px;
+    border: 2px solid #121212;
+    background-color: white;
+    display: flex;
+    margin: 20px 10px;
+    border-radius: 10px;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+}
+
+.pro p {
+    text-align: left;
+    font-size: 16px;
+}
+
+.experience {
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #121212;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 25px;
+    gap: 20px;
+}
+
+.experience .box {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 100%;
+    gap: 150px;
+}
+
+.experience .box h3 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.experience .box p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.contact-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #121212;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    width: 300px;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #121212;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.contact-box button {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #121212;
+    color: white;
+    font-size: 15px; 
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#responseMessage {
+    max-width: 300px;
+    background: #dff0d8;
+    color: #3c763d;
+    padding: 10px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #121212;
+    border-radius: 10px;
+}
